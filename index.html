@@ -1,21 +1,28 @@
 <html>
     <head>
     <title> Berny Baeza </title>
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font.css">
+    <script src="js/scrollreveal.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/animacion.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
     <meta charset="utf-8">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #dad6d4;" position="fixed;">
+<div class="contenedor">
+<!-- Configuración Barra Menu de Bootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top " style="background-color: #dad6d45d;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" >Psc. Andrea Torres Blanchard</a>
+          <a class="navbar-brand" href="index.html" >Psc. Andrea Torres Blanchard</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
-              <a class="nav-link " aria-current="page" href="acercademi.html">Acerca de Mi</a>
+              <a class="nav-link " aria-current="page" href="index.html">Acerca de Mi</a>
               <a class="nav-link" href="servicios.html">Servicios</a>
               <a class="nav-link" href="areas.html">Áreas de Espacialización y Licencias</a>
               <a class="nav-link" href="redes.html">Redes</a>
@@ -25,11 +32,10 @@
           </div>
         </div>
       </nav>
+<!-- Configuración de Imagen y Texto Princiapal -->
 <div class="imagen">
   <img src="img/imagen Inicio.jpg">
-        <h1 class="imagen" >ANDREA</h1>
-        <h1 class="imagen" >TORRES</h1>
-        <h1 class="imagen" >BLANCHARD</h1>
+        <h1 class="imagen" >ANDREA <br>TORRES <br>BLANCHARD</h1>
         <br>
         <br>
         <h2>ESPECIALISTA EN PSICOLOGÍA DE LA SALUD </h2>
@@ -48,9 +54,18 @@
   <img src="img/Andrea-torres-logo.webp">
 </div>
   </div>
-</body>   
-<link rel="stylesheet" href="css/estilos.css">
-    <div class="footer">
-      <p>© 2020 Psic. Andrea Torres Blanchard</p>
-    </div>
+<!-- Barra de Redes Sociales -->
+  <div class="redes-sociales">
+    <a href="https://www.linkedin.com/in/atblanchard/" class="icon icon-linkedin2" target="_blank"></a>
+    <a href="https://www.instagram.com/psicohistorias/" class="icon icon-instagram" target="_blank"></a>
+    <a href="https://www.youtube.com/channel/UCx9GJg8njDrTcrZLIkbE1ag" class="icon icon-youtube" target="_blank"></a>
+  </div>
+<!-- Aquí llamamos al Script para las animaciones -->
+  <script src="js/animacion.js"></script>
+    
+  </div>
+</body>
+<div class="footer">
+  <p>© 2020 Psic. Andrea Torres Blanchard</p>
+</div>
 </html>
