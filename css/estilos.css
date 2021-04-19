@@ -1,112 +1,178 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
 
-.contenedor{
+.contenedor {
   width: 100%;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(82, 80, 80, 0.637);
-    color: white;
-    text-align: center;
-  }
-  .imagen img{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(82, 80, 80, 0.637);
+  color: white;
+  text-align: center;
+}
 
-    opacity: 0.5; 
-    float: left;
-    width: 600px;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 100px;
-    margin-top: 3%;
-  }
-  .imagen h1{
-   font-weight: normal;
-   text-align: center; 
-   font-size: 63px; 
-   font-family: normal normal normal 100px/1.4em futura-lt-w01-light,sans-serif;
-   color: rgb(66, 71, 70);
-   margin-bottom: 20px;
-   margin-top: 5%;
-  }
-  .imagen h2{
+.imagen img {
+
+  opacity: 0.5;
+  float: left;
+  width: 600px;
+  height: 900px;
+  margin-right: 20px;
+  margin-left: 100px;
+  margin-top: 3%;
+}
+
+.imagen h1 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 63px;
+  font-family: normal normal normal 100px/1.4em futura-lt-w01-light, sans-serif;
+  color: rgb(66, 71, 70);
+  margin-bottom: 20px;
+  margin-top: 5%;
+}
+
+.imagen h2 {
 
   position: relative;
-  text-align: center; 
-  font-size: 24px; 
-  font-family: normal normal normal 100px/1.4em futura-lt-w01-light,sans-serif;
+  text-align: center;
+  font-size: 24px;
+  font-family: normal normal normal 100px/1.4em futura-lt-w01-light, sans-serif;
   color: rgb(66, 71, 70);
   left: 0px;
   margin-bottom: 20px;
-  }
-  .imagen p{
+}
 
-    position: relative;
-    text-align: center; 
-    font-size: 20px; 
-    font-family: normal normal normal 24px/1.4em futura-lt-w01-light,sans-serif;
-    color: rgb(66, 71, 70);
-    left: 0px;
-    margin-bottom: 50px;
-  }
-  .logo img{
+.imagen p {
 
-    width: 287px;
-    height: 85px;
-    float: center;
-    object-fit: contain;
-    margin-left: 250px;
-    margin-bottom: 50px;
-  }
-  .redes-sociales{
-   position: fixed;
-   right: 0;
-   top: 30%; 
-   font-size: 1.5rem;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-end;
-   z-index: 100;
-  }
-  .icon{
-    color: white;
-    text-decoration: none;
-    padding: .7rem;
-    display: flex;
-    transition: all .5s;
-  }
-  .icon-linkedin2{
-    background-color: gray;
-    
-  }
-  .icon-instagram{
-    background-color: gray;
-  }
-  .icon-youtube{
-    background-color: gray;
-    
-  }
-  .icon:first-child {
-    border-radius: 1rem 0 0 0;
-  }
-  .icon:last-child {
-    border-radius: 0 0 0 1rem;
-  }
-  .icon:hover {
-    padding-right: 3rem;
-    border-radius: 1rem 0 0 1rem;
-    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
-    
-  }
-  .icon-youtube:hover{
-    color: red;
-  }
-  .icon-instagram:hover{
-    color: rgb(175, 24, 125);
-    
-  }
-  .icon:hover::before{
-    height: 180%;
-  }
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  font-family: normal normal normal 24px/1.4em futura-lt-w01-light, sans-serif;
+  color: rgb(66, 71, 70);
+  left: 0px;
+  margin-bottom: 50px;
+}
+
+.logo img {
+
+  width: 287px;
+  height: 85px;
+  float: center;
+  object-fit: contain;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+
+.redes-sociales {
+  position: fixed;
+  right: 0;
+  top: 30%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+}
+
+.icon {
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+
+.icon-linkedin2 {
+  background-color: gray;
+
+}
+
+.icon-instagram {
+  background-color: gray;
+}
+
+.icon-youtube {
+  background-color: gray;
+
+}
+
+.icon:first-child {
+  border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+  border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+
+}
+
+.icon-youtube:hover {
+  color: red;
+}
+
+.icon-instagram:hover {
+  color: rgb(175, 24, 125);
+
+}
+
+.icon:hover::before {
+  height: 180%;
+}
+
+section {
+  height: 650px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 40px;
+  align-items: center;
+}
+
+section h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+section p {
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+section img {
+  height: 60%;
+}
+
+section:nth-child(1) {
+  background-image: url('../img/marmol-crema.jpg')
+}
+
+section:nth-child(2) {
+  background-image: url('../img/blanco-planta.jpg');
+}
+
+section:nth-child(3) {
+  background-image: url('../img/marmol-crema.jpg')
+}
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0,0,0,0.4);
+}
