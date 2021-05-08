@@ -1,0 +1,29 @@
+body.contacto{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0;
+    
+}
+.contact-information{
+    background: url(../img/Fondo-contacto.webp);
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    background-position:center;
+    border: 0;
+    margin: 0;
+}
+.formulario{
+    background: rgba(212, 211, 208, 0.747);
+    height: 100vh;
+    width: 50%;
+
+
+}

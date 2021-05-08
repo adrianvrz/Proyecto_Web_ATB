@@ -1,10 +1,4 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
+
 html{
   scroll-behavior: smooth;
 }
@@ -170,9 +164,4 @@ section:nth-child(2) {
 
 section:nth-child(3) {
   background-image: url('../img/marmol-crema.jpg')
-}
-form {
-  width: 450px;
-  margin: auto;
-  background: rgba(0,0,0,0.4);
 }
